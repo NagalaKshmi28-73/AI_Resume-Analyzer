@@ -1,0 +1,28 @@
+# Environment
+.env
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Database
+*.db
+*.sqlite3
+
+# Generated reports
+reports/*.pdf
+!reports/.gitkeep
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploaded files (runtime)
+uploads/
